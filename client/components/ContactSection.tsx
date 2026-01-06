@@ -66,7 +66,7 @@ export default function ContactSection() {
             </h2>
             <p className="text-lg text-foreground/70">
               Schedule a consultation with our team to discuss your SaaS
-              optimization. No credit card required.
+              optimization. 
             </p>
           </div>
 
@@ -186,7 +186,7 @@ export default function ContactSection() {
                 disabled={loading}
                 className="w-full px-6 py-3 bg-primary text-primary-foreground rounded-lg font-semibold hover:bg-primary/90 transition-all hover:shadow-lg hover:shadow-primary/30 disabled:opacity-50"
               >
-                {loading ? "Submitting..." : "Request Free Audit"}
+                {loading ? "Submitting..." : "Request Free Meeting"}
               </button>
 
               <p className="text-xs text-foreground/50 text-center">
@@ -214,7 +214,7 @@ export default function ContactSection() {
               </h3>
               <p className="text-foreground/70">
                 We've received your request. Our team will be in touch within 24
-                hours to schedule your audit.
+                hours to schedule your meeting!
               </p>
             </div>
           )}
