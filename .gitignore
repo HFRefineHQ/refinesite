@@ -38,3 +38,6 @@ dist-ssr
 
 # Ignore vscode AI rules
 .github/instructions/codacy.instructions.md
+
+.vercel
+.env*.local
