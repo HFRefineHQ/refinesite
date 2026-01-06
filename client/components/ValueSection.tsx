@@ -1,6 +1,6 @@
 export default function ValueSection() {
   return (
-    <section id="value" className="py-24 px-6 sm:px-8 lg:px-12 bg-secondary/30">
+    <section id="value" className="scroll-mt-16 py-24 px-6 sm:px-8 lg:px-12 bg-secondary/30">
       <div className="max-w-7xl mx-auto">
         <div className="space-y-12">
           {/* Header */}

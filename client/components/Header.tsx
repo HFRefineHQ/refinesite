@@ -10,15 +10,19 @@ export default function Header() {
             alt="Refine logo"
             className="h-8 w-auto"
           />
-
           <span className="font-bold text-xl text-foreground hidden sm:inline">
             Refine
           </span>
         </Link>
 
-        <button className="px-6 py-2 bg-primary text-primary-foreground rounded-lg font-medium hover:bg-primary/90 transition-colors text-sm">
-          Request a Meeting
-        </button>
+        <a href="#contact">
+          <button
+            type="button"
+            className="px-6 py-2 bg-primary text-primary-foreground rounded-lg font-medium hover:bg-primary/90 transition-colors text-sm"
+          >
+            Request a Meeting
+          </button>
+        </a>
       </nav>
     </header>
   );
